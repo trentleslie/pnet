@@ -285,7 +285,7 @@ class ReactomeNetwork:
                 if v in d[k]:
                     df[k][v] = 1
 
-        return df.loc[:, (df!=0).any(0)]
+        return df.loc[:, (df!=0).any(axis=0)]
     
     def get_layer_dfs(self):
         layer_dfs = []
