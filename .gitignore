@@ -1,0 +1,225 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+*.cover
+*.log
+
+# Virtual Environments
+venv/
+ENV/
+env/
+.venv/
+.env
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+.jupyter/
+
+# JupyterLab
+.jupyter/lab/workspaces/
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Spyder
+.spyderproject
+.spyproject
+
+# Rope
+.ropeproject
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.Trash-*
+
+# Data files (adjust patterns based on your needs)
+*.csv
+*.xlsx
+*.xls
+*.json
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.mat
+*.sav
+*.RData
+
+# But keep specific data files that are part of the project
+!data/gene_sets/*.csv
+!data/hallmark/*.gmt
+!data/reactome/*.gmt
+!data/reactome/*.txt
+!data/reactome/*.csv
+!data/regulatory/*.csv
+!data/splits/**/*.csv
+!data/test_data/*.csv
+!data/test_data/*.txt
+
+# Model files
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.pb
+*.tflite
+*.onnx
+*.caffemodel
+*.keras
+*.model
+*.joblib
+
+# But keep specific model files
+!results/**/AUC.pt
+!results/**/predictions.pt
+
+# Logs and outputs
+logs/
+runs/
+outputs/
+checkpoints/
+tensorboard/
+wandb/
+mlruns/
+*.log
+*.out
+*.err
+
+# Large files
+*.zip
+*.tar
+*.gz
+*.rar
+*.7z
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+*.backup
+*.old
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Secrets and credentials
+*.pem
+*.key
+secrets/
+credentials/
+config/secrets/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Documentation build files
+docs/_build/
+docs/.doctrees/
+site/
+
+# Package manager files
+poetry.lock
+Pipfile.lock
+
+# Profiling
+*.prof
+*.lprof
+
+# Dask
+dask-worker-space/
+
+# Ray
+ray_results/
+
+# MLflow
+mlruns/
+mlflow.db
+
+# DVC
+.dvc/
+.dvcignore
+
+# Weights & Biases
+wandb/
+
+# Neptune
+.neptune/
+
+# Comet
+.comet.config
+
+# Sacred
+.sacred/
+
+# Hydra
+outputs/
+multirun/
+.hydra/
+
+# Optuna
+optuna.db
+
+# Custom project patterns
+scratch/
+temp/
+experiments/
+old_results/
+debug/
